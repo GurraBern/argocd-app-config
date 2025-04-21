@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoUrl: https://github.com/GurraBern/argocd-app-config
+    repoURL: https://github.com/GurraBern/argocd-app-config.git
     targetRevision: HEAD
     path: dev
   destination:
@@ -19,5 +19,5 @@ spec:
     - CreateNamespace=true
 
     automated:
-      selfHealing: true
+      selfHeal: true
       prune: true
